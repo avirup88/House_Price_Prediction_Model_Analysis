@@ -1,6 +1,5 @@
 # House Price Prediction Project
 
-![Project Banner](https://via.placeholder.com/1200x300.png?text=House+Price+Prediction+Project)
 
 ## Overview
 The **House Price Prediction Project** aims to predict house prices using advanced machine learning techniques. It provides insights into the factors influencing house prices through data analysis, visualization, and model training.
