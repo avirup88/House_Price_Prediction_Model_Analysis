@@ -1,6 +1,5 @@
 # House Price Prediction Project
 
-
 ## Overview
 The **House Price Prediction Project** aims to predict house prices using advanced machine learning techniques. It provides insights into the factors influencing house prices through data analysis, visualization, and model training.
 
@@ -9,6 +8,7 @@ The **House Price Prediction Project** aims to predict house prices using advanc
 ## Table of Contents
 - [Overview](#overview)
 - [Files in This Repository](#files-in-this-repository)
+- [Source Dataset](#source-dataset)
 - [Project Workflow](#project-workflow)
 - [How to Run the Project](#how-to-run-the-project)
 - [Dependencies](#dependencies)
@@ -32,6 +32,19 @@ This Jupyter Notebook contains:
 ### 2. `House_Prediction_Model.key`
 A serialized machine learning model file:
 - Stores the trained model, allowing for deployment or further experimentation.
+
+---
+
+## Source Dataset
+
+The dataset used for this project is sourced from a CSV file `king_country_houses_aa.csv`. It includes the following features:
+- **Location:** Geographic data indicating the house's area.
+- **Number of Rooms:** Number of bedrooms and bathrooms.
+- **Size:** Square footage of living space and lot area.
+- **Year Built:** Construction year of the house.
+- **Price:** Target variable indicating the house's sale price.
+
+The dataset provides a comprehensive view of various factors influencing house prices in King County. Before usage, data cleaning and preprocessing steps were applied to address missing values and outliers.
 
 ---
 
@@ -69,6 +82,9 @@ A serialized machine learning model file:
    ```
 
 2. Install the required dependencies.
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 3. Open the Jupyter Notebook and run the cells.
    ```bash
@@ -102,4 +118,5 @@ A serialized machine learning model file:
 - Include more features like economic indicators, neighborhood trends, and infrastructure development.
 - Experiment with deep learning models for complex patterns.
 - Build a web application for user-friendly predictions.
+
 
